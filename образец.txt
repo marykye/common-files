@@ -1,0 +1,24 @@
+HTML
+<tagName> Some content </tagName> - TAG
+<tagName> это ELEMENT
+block-line elemets - на экране вывод€тс€ каждый с новой строки
+in-line elements - не вли€ют на разметку страницы, но группируют элементы
+<tag name="value"></tag>, где name - свойство, а value - значение; - ATTRIBUTES - способ (форма) добавлени€ дополнительной информации в ELEMENTS (TAGS)
+
+CSS
+selector {
+	property: value;
+	anotherProperty: value;
+}
+#id - не повтор€ютс€
+.class - могут включать в себ€ бесконечное множество элементов
+n em - обозначение размера, где n означает кратность по отношению к элементу родителю (например, 2.0em - это вдважды больше)
+n% - обозначение размера, где проценты берутс€ от элемента родител€
+Box model:
+1. MARGIN
+2. BORDER
+3. PADDING
+4. CONTENT
+margin: top right bottom left;
+margin: 0 auto 0 auto; или 0 auto; - элемент всегда будет в центре элемента родител€
+widht и height - ширина и высота любого элемента
